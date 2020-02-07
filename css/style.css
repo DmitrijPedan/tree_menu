@@ -1,0 +1,31 @@
+/* ссылки а    в ul-main */
+ul.main a{
+    text-decoration: none; }
+
+ul.main a.selected{
+    color: #f00; }
+
+ul + a::after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f107';
+    margin-left: 4px; }
+
+/* ul     в ul-main */
+ul.main ul{
+   display: block; }
+
+
+/* li     в ul-main*/
+ul.main li{
+    display: flex;
+    flex-direction: column-reverse; }
+
+/* ul.main ul.open{
+    display: block; } */
+
+ul.main ul.close{
+    display: none; 
+}
+
+
