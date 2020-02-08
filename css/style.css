@@ -1,4 +1,3 @@
-/* ссылки а    в ul-main */
 ul.main a{
     text-decoration: none; }
 
@@ -8,24 +7,28 @@ ul.main a.selected{
 ul + a::after{
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
+    content: '\f105';
+    margin-left: 4px; }
+
+ul + a.selected::after{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     content: '\f107';
     margin-left: 4px; }
 
-/* ul     в ul-main */
-ul.main ul{
-   display: block; }
-
-
-/* li     в ul-main*/
 ul.main li{
     display: flex;
     flex-direction: column-reverse; }
 
-/* ul.main ul.open{
-    display: block; } */
-
 ul.main ul.close{
     display: none; 
+}
+
+.menu-path {
+    height: 18px;
+    font-size: 12px;
+    color: green;
+    text-transform: lowercase;
 }
 
 
