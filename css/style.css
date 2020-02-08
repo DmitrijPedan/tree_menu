@@ -31,4 +31,10 @@ ul.main ul.close{
     text-transform: lowercase;
 }
 
+.content {
+    padding-top: 20px;
+    font-size: 22px;
+    color: #007bff;
+    text-transform: lowercase; 
+}
 
